@@ -1,0 +1,14 @@
+Area {
+    subspace: Any,
+    path: Path(
+        [
+            Component(
+                [],
+            ),
+        ],
+    ),
+    times: Range {
+        start: 18446744073694806016,
+        end: Open,
+    },
+}

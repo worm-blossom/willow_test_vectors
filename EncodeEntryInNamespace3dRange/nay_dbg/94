@@ -1,0 +1,173 @@
+(
+    NamespaceId25(
+        VerifyingKey(CompressedEdwardsY: [135, 106, 228, 23, 182, 97, 8, 34, 117, 36, 118, 147, 160, 54, 149, 124, 195, 39, 105, 179, 45, 82, 102, 248, 64, 39, 199, 166, 11, 115, 247, 254]), EdwardsPoint{
+        	X: FieldElement51([1710390677534877, 2016945852725428, 2020379391167529, 1383821641752581, 442751129860073]),
+        	Y: FieldElement51([1614139139250196, 968119444236512, 1241025257009764, 1452925625556183, 97625570011402]),
+        	Z: FieldElement51([1366026529892027, 1635086609605940, 684355523403320, 1013964997296954, 846956869054061]),
+        	T: FieldElement51([235073406914018, 1152010166816823, 426009765629757, 2069383253908550, 1413437013553080])
+        }),
+    ),
+    Range3d {
+        subspaces: Range {
+            start: SubspaceId25(
+                [
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    110,
+                    251,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    37,
+                    37,
+                    37,
+                    41,
+                    165,
+                    37,
+                    37,
+                    33,
+                    251,
+                    255,
+                    255,
+                    255,
+                    255,
+                    42,
+                ],
+            ),
+            end: Open,
+        },
+        paths: Range {
+            start: Path(
+                [
+                    Component(
+                        [
+                            255,
+                            255,
+                            255,
+                            91,
+                            191,
+                            255,
+                        ],
+                    ),
+                    Component(
+                        [
+                            255,
+                            255,
+                            255,
+                        ],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                ],
+            ),
+            end: Closed(
+                Path(
+                    [
+                        Component(
+                            [
+                                255,
+                                255,
+                                255,
+                                255,
+                            ],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                        Component(
+                            [],
+                        ),
+                    ],
+                ),
+            ),
+        },
+        times: Range {
+            start: 18446742974214700969,
+            end: Open,
+        },
+    },
+)

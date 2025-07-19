@@ -1,0 +1,58 @@
+Owned(
+    UnverifiedOwnedCapability {
+        inner: OwnedCapability {
+            access_mode: Read,
+            namespace_key: NamespaceId25(
+                VerifyingKey(CompressedEdwardsY: [43, 77, 77, 140, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 126, 77, 77]), EdwardsPoint{
+                	X: FieldElement51([549061966357146, 684926244117031, 156071809502479, 348828167766746, 691694629201010]),
+                	Y: FieldElement51([1492370345250091, 468021137746345, 1465877525771573, 1872084550985382, 1359923629053140]),
+                	Z: FieldElement51([1, 0, 0, 0, 0]),
+                	T: FieldElement51([957181422704206, 164810374402812, 1101218185475889, 278752079471583, 1909550119770813])
+                }),
+            ),
+            user_key: SubspaceId25(
+                [
+                    77,
+                    77,
+                    77,
+                    77,
+                    77,
+                    77,
+                    77,
+                    77,
+                    44,
+                    77,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    255,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    185,
+                    77,
+                    77,
+                    77,
+                    77,
+                ],
+            ),
+            initial_authorisation: Signature25(
+                ed25519::Signature {
+                    R: 0x4d7e4d4d4d4d4d4d4d4d4d4d4d4d2c4db9b9b9b9b9b9b9b9b9ffb9b9b9b9b9b9,
+                    s: 0xb9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b94d00,
+                },
+            ),
+            delegations: [],
+        },
+    },
+)

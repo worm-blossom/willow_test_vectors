@@ -1,0 +1,1634 @@
+Owned(
+    UnverifiedOwnedCapability {
+        inner: OwnedCapability {
+            access_mode: Read,
+            namespace_key: NamespaceId25(
+                VerifyingKey(CompressedEdwardsY: [143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 199, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143, 143]), EdwardsPoint{
+                	X: FieldElement51([1858639250997253, 987893376768664, 1237373799632435, 1439507892687343, 2039642312220773]),
+                	Y: FieldElement51([2128171588620175, 547496425288177, 1757286913482302, 2189985701152711, 273748212644088]),
+                	Z: FieldElement51([1, 0, 0, 0, 0]),
+                	T: FieldElement51([182869855594545, 723655432218360, 1237122449804896, 2113953384127044, 1424122207724182])
+                }),
+            ),
+            user_key: SubspaceId25(
+                [
+                    139,
+                    143,
+                    143,
+                    143,
+                    143,
+                    143,
+                    143,
+                    143,
+                    143,
+                    143,
+                    4,
+                    211,
+                    72,
+                    162,
+                    143,
+                    143,
+                    143,
+                    143,
+                    143,
+                    143,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                    255,
+                ],
+            ),
+            initial_authorisation: Signature25(
+                ed25519::Signature {
+                    R: 0x2b2b2b4d4d4d4d004d3b4d4d4d4d4d4d4f4d4d4d4d4d4d4d4d4d4d4d4dffffff,
+                    s: 0xffffffffffffffffffffffffffffffffffffffffffff4d4d2121012121212b21,
+                },
+            ),
+            delegations: [
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 33,
+                            end: Closed(
+                                18446744073709543134,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            77,
+                            43,
+                            43,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            255,
+                            77,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d,
+                            s: 0x4d4d4d4d4d4d4d9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f4d4d4d4d4d2c4d4d21,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 66,
+                            end: Closed(
+                                18446744073709534653,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            21,
+                            21,
+                            21,
+                            21,
+                            48,
+                            183,
+                            90,
+                            0,
+                            21,
+                            21,
+                            21,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d4d4d4d4d4d4d2b2b4d0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f,
+                            s: 0x0f0f0f0f0f0f0f0f0f0fffffffffffffffffffff0f9f9f9f9f9f9f9f9f9f9f9f,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 99,
+                            end: Closed(
+                                18446744073709526172,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            159,
+                            159,
+                            159,
+                            159,
+                            159,
+                            45,
+                            159,
+                            159,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            37,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            159,
+                            159,
+                            159,
+                            159,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x9f9f9f9f9f9f9f9f232323232323232323232323232323232323232323232323,
+                            s: 0x23232323232323232323232323232323232323232323239f9f9f9f2123232321,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 132,
+                            end: Closed(
+                                18446744073709517691,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            15,
+                            15,
+                            15,
+                            15,
+                            37,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            159,
+                            159,
+                            159,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            159,
+                            77,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x9f9f9f212121212121212121219f9f0f0f0f0f0f21db0f0f0f4d4d4d4d5d4d4d,
+                            s: 0x4d7e4d4d4d4d4d4d4d4c4da14d4d4d4d4d2c4d4d212121212121212121212121,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 165,
+                            end: Closed(
+                                18446744073709509210,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            21,
+                            21,
+                            21,
+                            21,
+                            21,
+                            21,
+                            255,
+                            255,
+                            21,
+                            21,
+                            21,
+                            21,
+                            0,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d2b2b4d0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f43ff,
+                            s: 0xffffffffffffffffffffffff9f9f9f9f9f9f9f9f9f9f9f4d4d4d4d4d2c4d4d21,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 198,
+                            end: Closed(
+                                18446744073709500729,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            21,
+                            21,
+                            21,
+                            21,
+                            48,
+                            183,
+                            90,
+                            0,
+                            21,
+                            21,
+                            21,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d4d4d4d4d4d4d2b2b4d0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f,
+                            s: 0x0f0f0f0f0f0f0f0f0f0fffffffffffffffffffff0f9f9f9f9f9f9f9f9f9f9f9f,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 231,
+                            end: Closed(
+                                18446744073709492248,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            159,
+                            159,
+                            159,
+                            159,
+                            159,
+                            45,
+                            159,
+                            159,
+                            15,
+                            15,
+                            11,
+                            15,
+                            15,
+                            37,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            159,
+                            159,
+                            159,
+                            159,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x9f9f9f9f9f9f9f9f232323232323232323232323232323232323232323232323,
+                            s: 0x23232323232323232323ffffffffffffff9f9f9f9f9f9f4d4d4d4d4d2c4d4d21,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 264,
+                            end: Closed(
+                                18446744073709483767,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            21,
+                            21,
+                            21,
+                            21,
+                            48,
+                            183,
+                            90,
+                            0,
+                            21,
+                            21,
+                            21,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d4d4d4d4d4d4d2b2b4d0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f,
+                            s: 0x0f0f0f0f0f0f0f0f0f0fffffffffffffffffffff0f9f9f9f9f9f9f9f9f9f9f9f,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 297,
+                            end: Closed(
+                                18446744073709475286,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            159,
+                            159,
+                            159,
+                            159,
+                            159,
+                            45,
+                            159,
+                            159,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            37,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            159,
+                            159,
+                            159,
+                            159,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x9f9f9f9f9f9f9f9f232323232323232323232323232323232323232323232323,
+                            s: 0x23232323232323232323232323232323232323232323239f9f9f9f2123232321,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 330,
+                            end: Closed(
+                                18446744073709466805,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            15,
+                            15,
+                            15,
+                            15,
+                            37,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            159,
+                            159,
+                            159,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            159,
+                            77,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x9f9f9f212121212121212121219f9f0f0f0f0f0f21db0f0f0f4d4d4d4d5d4d4d,
+                            s: 0x4d7e4d4d4d4d4d4d4d4c4da14d4d4d4d4d2c4d4d212121212121212121212121,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 363,
+                            end: Closed(
+                                18446744073709458324,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            21,
+                            21,
+                            21,
+                            21,
+                            21,
+                            21,
+                            255,
+                            255,
+                            21,
+                            21,
+                            21,
+                            21,
+                            0,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d2b2b4d0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f43ff,
+                            s: 0xffffffffffffffffffffffff9f9f9f9f9f9f9f9f9f9f9f4d4d4d4d4d2c4d4d21,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 396,
+                            end: Closed(
+                                18446744073709449843,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            21,
+                            21,
+                            21,
+                            21,
+                            48,
+                            183,
+                            90,
+                            0,
+                            21,
+                            21,
+                            21,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d4d4d4d4d4d4d2b2b4d0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f,
+                            s: 0x0f0f0f0f0f0f0f0f0f0fffffffffffffffffffff0f9f9f9f9f9f9f9f9f9f9f9f,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 429,
+                            end: Closed(
+                                18446744073709441362,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            159,
+                            159,
+                            159,
+                            159,
+                            159,
+                            45,
+                            159,
+                            159,
+                            15,
+                            15,
+                            11,
+                            15,
+                            15,
+                            37,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            15,
+                            159,
+                            159,
+                            159,
+                            159,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x9f9f9f9f9f9f9f9f232323232323232323232323232323232323232323232323,
+                            s: 0x1f2323232323232323ffffffffffffffff232321212121212121212121212121,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 462,
+                            end: Closed(
+                                18446744073709432881,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            77,
+                            35,
+                            35,
+                            35,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            43,
+                            77,
+                            23,
+                            23,
+                            23,
+                            23,
+                            23,
+                            23,
+                            23,
+                            23,
+                            23,
+                            23,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x17171717171717170f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f,
+                            s: 0x0f0f0f0f8f8f8f0f0fffffffffffffffffff0f9f9f9f9f9f9f9f9f9f9f212121,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        77,
+                                        77,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 495,
+                            end: Closed(
+                                18446744073709423886,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            77,
+                            77,
+                            77,
+                            35,
+                            35,
+                            35,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                            189,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0xbdbdbdbdbd2b4d171717171717171717171717171717170f0f0f0f0f0f0f0f0f,
+                            s: 0x0f0f0f0f0f0f0f0f0f0f8f8f0f0fffffffffffffffffffff0fb3b3ffffffffff,
+                        },
+                    ),
+                },
+            ],
+        },
+    },
+)

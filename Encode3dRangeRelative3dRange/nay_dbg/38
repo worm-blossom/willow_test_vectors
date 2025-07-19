@@ -1,0 +1,107 @@
+Range3d {
+    subspaces: Range {
+        start: SubspaceId25(
+            [
+                0,
+                0,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                171,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                255,
+                255,
+                255,
+                255,
+                255,
+            ],
+        ),
+        end: Open,
+    },
+    paths: Range {
+        start: Path(
+            [
+                Component(
+                    [],
+                ),
+            ],
+        ),
+        end: Closed(
+            Path(
+                [
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                    Component(
+                        [],
+                    ),
+                ],
+            ),
+        ),
+    },
+    times: Range {
+        start: 0,
+        end: Closed(
+            255,
+        ),
+    },
+}

@@ -1,0 +1,65 @@
+Range3d {
+    subspaces: Range {
+        start: SubspaceId25(
+            [
+                96,
+                9,
+                55,
+                0,
+                114,
+                43,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                0,
+                0,
+                0,
+                0,
+                0,
+            ],
+        ),
+        end: Open,
+    },
+    paths: Range {
+        start: Path(
+            [],
+        ),
+        end: Closed(
+            Path(
+                [
+                    Component(
+                        [
+                            255,
+                            0,
+                        ],
+                    ),
+                    Component(
+                        [],
+                    ),
+                ],
+            ),
+        ),
+    },
+    times: Range {
+        start: 18446528569430507519,
+        end: Open,
+    },
+}

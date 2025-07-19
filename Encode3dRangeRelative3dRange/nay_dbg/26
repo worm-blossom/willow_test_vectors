@@ -1,0 +1,110 @@
+Range3d {
+    subspaces: Range {
+        start: SubspaceId25(
+            [
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                65,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+            ],
+        ),
+        end: Open,
+    },
+    paths: Range {
+        start: Path(
+            [
+                Component(
+                    [
+                        249,
+                        249,
+                        249,
+                        249,
+                        249,
+                        249,
+                        249,
+                        249,
+                        249,
+                        249,
+                        255,
+                        255,
+                    ],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+            ],
+        ),
+        end: Open,
+    },
+    times: Range {
+        start: 9223372036837998592,
+        end: Open,
+    },
+}

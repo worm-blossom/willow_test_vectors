@@ -1,0 +1,34 @@
+EncodedPair {
+    actual_value: Area {
+        subspace: Any,
+        path: Path(
+            [
+                Component(
+                    [],
+                ),
+            ],
+        ),
+        times: Range {
+            start: 35073,
+            end: Closed(
+                35073,
+            ),
+        },
+    },
+    relative_to: Area {
+        subspace: Any,
+        path: Path(
+            [
+                Component(
+                    [],
+                ),
+            ],
+        ),
+        times: Range {
+            start: 43,
+            end: Closed(
+                35328,
+            ),
+        },
+    },
+}

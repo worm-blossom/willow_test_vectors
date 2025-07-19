@@ -1,0 +1,185 @@
+Communal(
+    UnverifiedCommunalCapability {
+        inner: CommunalCapability {
+            access_mode: Read,
+            namespace_key: NamespaceId25(
+                VerifyingKey(CompressedEdwardsY: [43, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 60, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 126, 77, 77, 77]), EdwardsPoint{
+                	X: FieldElement51([1256037827548054, 1758934813075835, 1197008150585308, 1204669145303309, 698599846334927]),
+                	Y: FieldElement51([1492369288285483, 468021137746345, 1465877521315125, 1872084550985382, 1359910527096020]),
+                	Z: FieldElement51([1, 0, 0, 0, 0]),
+                	T: FieldElement51([219651604731919, 1396066599593983, 1347214136990504, 1418655465112648, 1872174169393929])
+                }),
+            ),
+            user_key: SubspaceId25(
+                [
+                    77,
+                    77,
+                    77,
+                    77,
+                    77,
+                    77,
+                    77,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    159,
+                    77,
+                    77,
+                    77,
+                    77,
+                    77,
+                    44,
+                    77,
+                    77,
+                    33,
+                ],
+            ),
+            delegations: [
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 33,
+                            end: Closed(
+                                18446744073709543134,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            77,
+                            13,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            21,
+                            21,
+                            21,
+                            21,
+                            43,
+                            43,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d4d4d4d4d4d4d4d4d4d4d3c4d4d4d4d4d4d4d4d4d4d4d4d7e4d4d4d4d4d,
+                            s: 0x4d4d4d4d4d9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f9f4d4d4d4d6d2c4d4d212121,
+                        },
+                    ),
+                },
+                Delegation {
+                    area: Area {
+                        subspace: Any,
+                        path: Path(
+                            [
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                                Component(
+                                    [
+                                        33,
+                                        33,
+                                    ],
+                                ),
+                            ],
+                        ),
+                        times: Range {
+                            start: 66,
+                            end: Closed(
+                                18446744073709534653,
+                            ),
+                        },
+                    },
+                    user: SubspaceId25(
+                        [
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            33,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            77,
+                            21,
+                            21,
+                            21,
+                            21,
+                            48,
+                            183,
+                            90,
+                            0,
+                            21,
+                            21,
+                            21,
+                            77,
+                            77,
+                            77,
+                        ],
+                    ),
+                    signature: Signature25(
+                        ed25519::Signature {
+                            R: 0x4d4d4d4d4d4d4d2b2b4d0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f,
+                            s: 0x0f0f0f0f0f0fffffffffffffffffff0f9f9f9f9f9f9f21212121212121304d00,
+                        },
+                    ),
+                },
+            ],
+        },
+    },
+)

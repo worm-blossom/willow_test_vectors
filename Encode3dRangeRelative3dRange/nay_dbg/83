@@ -1,0 +1,97 @@
+Range3d {
+    subspaces: Range {
+        start: SubspaceId25(
+            [
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                51,
+                10,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+                249,
+            ],
+        ),
+        end: Open,
+    },
+    paths: Range {
+        start: Path(
+            [
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+                Component(
+                    [],
+                ),
+            ],
+        ),
+        end: Open,
+    },
+    times: Range {
+        start: 18012703032499370489,
+        end: Open,
+    },
+}

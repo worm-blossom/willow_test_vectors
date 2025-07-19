@@ -1,0 +1,12 @@
+Area {
+    subspace: Any,
+    path: Path(
+        [],
+    ),
+    times: Range {
+        start: 31243722417504256,
+        end: Closed(
+            18446744073709504768,
+        ),
+    },
+}
